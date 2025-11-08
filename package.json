@@ -1,24 +1,26 @@
 {
   "name": "@apiverve/dmarcvalidator",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "DMARC Validator checks the Domain-based Message Authentication, Reporting and Conformance (DMARC) record for a domain to ensure it is correctly configured.",
   "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "example": "node examples/basic.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apiverve/dmarcvalidator-API.git"
   },
   "keywords": [
-    "dmarc","dmarc check","dmarc validator","email security","dns check"
+    "dmarc", "dmarc check", "dmarc validator", "email security", "dns check"
   ],
   "author": "APIVerve <hello@apiverve.com> (http://apiverve.com/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/apiverve/dmarcvalidator-API/issues"
   },
-  "homepage": "https://apiverve.com/marketplace/api/dmarcvalidator?utm_source=npm",
+  "homepage": "https://apiverve.com/marketplace/dmarcvalidator?utm_source=npm",
   "devDependencies": {
     "mocha": "^11.0.1",
     "chai": "^5.1.2",
@@ -27,6 +29,6 @@
   "dependencies": {
     "node-fetch": "^3.3.2",
     "promise": "^8.3.0",
-    "axios": "1.8.4"
+    "axios": "1.13.2"
   }
 }
